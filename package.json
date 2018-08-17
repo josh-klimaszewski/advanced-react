@@ -6,7 +6,8 @@
   "author": "josh",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --exec babel-node lib/server.js"
+    "dev": "nodemon --exec babel-node lib/server.js",
+    "webpack": "webpack -wd"
   },
   "babel": {
     "presets": [
@@ -18,15 +19,20 @@
   "devDependencies": {
     "babel-eslint": "^8.2.6",
     "eslint": "^5.3.0",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.11.1",
+    "webpack-cli": "^3.1.0"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "pm2": "^3.0.3"
+    "pm2": "^3.0.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.16.5"
   }
 }
